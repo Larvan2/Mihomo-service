@@ -1,0 +1,14 @@
+name: "mihomo service"
+display-name: "mihomo service"
+description: "Run mihomo core"
+dir: "C:\\Clash"
+exec: "C:\\Clash\\clash-meta.exe"
+args:
+  - "-d"
+  - "C:\\Clash"
+  - "-f"
+  - "C:\\Clash\\config.yaml"
+env: []
+stderr: "C:\\Clash\\builder_err.log"
+stdout: "C:\\Clash\\builder_out.log"
+enable-log: false
