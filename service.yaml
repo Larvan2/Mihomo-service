@@ -9,6 +9,6 @@ args:
   - "-f"
   - "C:\\Clash\\config.yaml"
 env: []
-stderr: "C:\\Clash\\builder_err.log"
-stdout: "C:\\Clash\\builder_out.log"
+stderr: "C:\\Clash\\err.log"
+stdout: "C:\\Clash\\out.log"
 enable-log: false
